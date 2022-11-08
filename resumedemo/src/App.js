@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Line from './components/Line';
 import Body from './components/Body';
 import self from './self.jpg';
+// import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
             <Col><Body /></Col>
           </Row>
           <Row>
-            <Col>1 of 3</Col>
+            <Col>
+              {/* <Button variant="danger" onClick={() => { localStorage.setItem('theme', localStorage.getItem('theme') === 'dark' ? 'light' : 'dark'); window.location.reload();}}> Change Mode </Button> */}
+            </Col>
             <Col><Line /></Col>
             <Col>3 of 3</Col>
           </Row>
