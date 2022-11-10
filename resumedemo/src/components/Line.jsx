@@ -10,18 +10,20 @@ function Line() {
           <Nav.Link href="/home">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">Contact</Nav.Link>
+          <Nav.Link eventKey="/Skills" >Skills</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Footer</Nav.Link>
+          <Nav.Link href="/Body">Contact</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="/Footer">Footer</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Button variant="danger" onClick={() => { localStorage.setItem('theme', localStorage.getItem('theme') === 'dark' ? 'light' : 'dark'); window.location.reload();}}> Change Mode </Button>
         </Nav.Item>
       </Nav>
     </div>
-    
-)
+  )
 }
   
   export default Line;

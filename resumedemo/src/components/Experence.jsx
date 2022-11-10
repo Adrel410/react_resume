@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Body() {
+function Experience() {
     return (
         <div className="App">
             <h4> Experience </h4>
@@ -31,4 +31,4 @@ function Body() {
     );
 }
 
-export default Body;
+export default Experience;

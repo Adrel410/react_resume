@@ -9,7 +9,7 @@ import Interests from './components/Interests';
 import About from './components/About';
 import Little from "./components/Little";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
+import Experience from "./components/Experence";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
               <Col> <Little /> </Col> 
             </Row>
             <Row>
-              <Col ><Contact />  </Col>
+              <Col ><Experience />  </Col>
               <Col class="col-sm-2"> <Body /> </Col>
             </Row>
           </Container>
