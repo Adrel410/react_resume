@@ -1,16 +1,17 @@
 @import "~bootstrap/scss/bootstrap";
-$backgroung-color: #a30743;
+$backgroung-color: #aa0545;
 $white-color: white;
 $link-color: #61dafb;
 * {
   background-color: $backgroung-color;
+  font-size: large;
   font-style: bold;
-  font-family:'Times New Roman', Times, serif;
+  font-family: Arial, sans-serif;
 }
 
 #container {
   border-radius: 5px;
-  color: #f8c0d5;
+  color: #f3a0bf;
 }
 #Nav.item{
   height: 200px;
