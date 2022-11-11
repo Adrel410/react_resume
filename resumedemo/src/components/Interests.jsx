@@ -7,6 +7,7 @@ function Interests() {
             <h2>Adeola Ogundipe</h2>
             <hr />
             <h4>Interests</h4>
+            <hr />
             <ul>
                 <li>Drawing</li>
                 <li>Photography</li>

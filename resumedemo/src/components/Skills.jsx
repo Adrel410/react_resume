@@ -4,6 +4,7 @@ function Skills() {
     return (
         <div>
             <h4>Skills</h4>
+            <hr />
             <ul>
                 <li>Web Design with HTML & CSS</li>
                 <li> ASP.NET </li>
@@ -20,6 +21,7 @@ function Skills() {
                 <li>Engineering Management</li>
             </ul>
             <h4>Education</h4>
+            <hr />
             <ul>
                 <li>Chattahoochee Technical College</li>
                 <li>Columbus State University</li>                

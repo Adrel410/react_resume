@@ -5,6 +5,7 @@ function Experience() {
     return (
         <div className="App">
             <h4> Experience </h4>
+            <hr />
             <p>Recruited to redesign the corporate web presence and initiate new online marketing strategies after 
                 successfully driving traffic and boosting sales via HDTV Labs’ website design. Increased visibility 
                 and credibility of OSI International, transforming both end-user and dealer websites to present a 
