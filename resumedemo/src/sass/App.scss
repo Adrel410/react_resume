@@ -1,7 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
-$backgroung-color: #b6074a;
-$white-color: white;
-$link-color: #61dafb;
+// $backgroung-color: #b6074a;
+// $white-color: white;
+// $link-color: #61dafb;
 * {
   background-color: $backgroung-color;
   font-size: large;
@@ -11,7 +11,6 @@ $link-color: #61dafb;
 
 #container {
   border-radius: 5px;
-  color: #f3a0bf;
 }
 #Nav.item{
   height: 200px;
@@ -21,14 +20,14 @@ $link-color: #61dafb;
   position: relative;
 }
 
-#footer {
-  height: 200px;
+#footer, #info {
+  height: 90px;
   width: 100%;
-  background-color: #ffcccc;
+  background-color: $color;
   clear: both;
   position: relative;
 }
-App {
+.App {
   text-align: center;
   background-color: $backgroung-color;
 }

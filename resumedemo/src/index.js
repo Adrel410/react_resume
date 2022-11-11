@@ -13,7 +13,7 @@ const ThemeSelector = ({children}) => {
   return(
     <React.Suspense fallback={<Spinner animation="border" variant="primary"/>} key={theme}>
       {theme === 'dark' && <DarkTheme />}
-      {theme === 'dark' && <LightTheme />}
+      {theme === 'light' && <LightTheme />}
       {children}
     </React.Suspense>
   )

@@ -2,7 +2,7 @@ import React from "react";
 
 function Contant() {
     return (
-        <div id="footer">
+        <div id="info">
             Address:
             3528 Gentian Blvd 
                 Columbus, Georgia.

@@ -1,25 +1,28 @@
 import React from "react";
 import Nav from 'react-bootstrap/Nav';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 
 function Line() {
   return(
-    <div id="Nav">
-        <Nav className="justify-content-center" activeKey="/home">
+    <div id="footer">
+        <Nav id="footer" className="justify-content-center" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/home">Home</Nav.Link>
+          <Nav.Link id="footer" href="#home">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="/Skills" >Skills</Nav.Link>
+          <Nav.Link id="footer" href="#skills" >Skills</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/Body">Contact</Nav.Link>
+          <Nav.Link id="footer" href="#stuff">Interests</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="/Footer">Footer</Nav.Link>
+          <Nav.Link id="footer" href="#info">Contact</Nav.Link>
+        </Nav.Item >
+        <Nav.Item>
+          <Nav.Link id="footer" href="#App">Experence</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Button variant="danger" onClick={() => { localStorage.setItem('theme', localStorage.getItem('theme') === 'dark' ? 'light' : 'dark'); window.location.reload();}}> Change Mode </Button>
+        <Nav.Link id="footer" onClick={() => { localStorage.setItem('theme', localStorage.getItem('theme') === 'dark' ? 'light' : 'dark'); window.location.reload();}}> Change Mode </Nav.Link>
         </Nav.Item>
       </Nav>
     </div>

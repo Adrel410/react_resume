@@ -2,7 +2,7 @@ import React from "react";
 
 function Interests() {
     return (
-        <div class="stuff">
+        <div id="stuff">
             <h1>Resume</h1>
             <h2>Adeola Ogundipe</h2>
             <hr />

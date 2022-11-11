@@ -13,7 +13,7 @@ import Experience from "./components/Experence";
 
 function App() {
   return (
-    <div>
+    <div id="home">
       <Line />
       <Container>
             <Row>

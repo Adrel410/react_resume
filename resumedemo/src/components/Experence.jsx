@@ -3,7 +3,7 @@ import React from "react";
 
 function Experience() {
     return (
-        <div className="App">
+        <div id="App">
             <h4> Experience </h4>
             <hr />
             <p>Recruited to redesign the corporate web presence and initiate new online marketing strategies after 
